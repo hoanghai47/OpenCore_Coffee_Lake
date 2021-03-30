@@ -31,7 +31,7 @@ Card Wifi + Blutooth: WiFi Intel AX200 802.11ax (2400Mbps) Wi-Fi 6 - Bluetooth 5
 - All USB ports (Full 3.0 + 2.0 + type C)
 
 Note: Realtek 8125 Ethernet card required to manually set to 100baseTx (or 1000baseTx if your adapter support) to work
-![Realtek 8125 Ethernet](/images/image1.png)
+![Realtek 8125 Ethernet](/image/image1.png)
 
 # Note For You
 The file config.plist. Please change MLB, SystemSerialNumber, SystemUUID into your code
