@@ -1,0 +1,1 @@
+# OpenCore_Intel_i5_10400_Asrock_H470_Steel_Legends_Only_UHD630
