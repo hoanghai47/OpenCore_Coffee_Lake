@@ -24,7 +24,7 @@ Card Wifi + Blutooth: WiFi Intel AX200 802.11ax (2400Mbps) Wi-Fi 6 - Bluetooth 5
 - Audio (select internal speakers)
 - Ethernet
 - Bluetooth
-- WiFi (Use HeliPort.app, recommend auto start it when login)
+- WiFi
 - All USB ports (Full 3.0 + 2.0 + type C)
 
 # Note For You
