@@ -18,10 +18,7 @@ Card Wifi + Blutooth: WiFi Intel AX200 802.11ax (2400Mbps) Wi-Fi 6 - Bluetooth 5
 - https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.7
 
 # Everything Works
-- Continuity:
-    - Handoff
-    - iMessage (use GenSMBIOS for gen and check coverage at https://coverage.apple.com)
-    - Air Drop
+- Display with iGPU works properly after removing frambuffer patch and device-id
 - Sleep
 - Wake
 - Audio (select internal speakers)
@@ -30,12 +27,11 @@ Card Wifi + Blutooth: WiFi Intel AX200 802.11ax (2400Mbps) Wi-Fi 6 - Bluetooth 5
 - WiFi (Use HeliPort.app, recommend auto start it when login)
 - All USB ports (Full 3.0 + 2.0 + type C)
 
-Note: Realtek 8125 Ethernet card required to manually set to 100baseTx (or 1000baseTx if your adapter support) to work
+# Note For You
+1. Realtek 8125 Ethernet card required to manually set to 100baseTx (or 1000baseTx if adapter support) to work
 ![Realtek 8125 Ethernet](/image/image1.png)
 
-# Note For You
-The file config.plist. Please change MLB, SystemSerialNumber, SystemUUID into your code
-
+2. The file config.plist. Please change MLB, SystemSerialNumber, SystemUUID into your code
 ```
 <dict>
   <key>AdviseWindows</key>
