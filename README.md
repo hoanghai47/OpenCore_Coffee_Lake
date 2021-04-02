@@ -18,7 +18,7 @@ Card Wifi + Blutooth: WiFi Intel AX200 802.11ax (2400Mbps) Wi-Fi 6 - Bluetooth 5
 - https://github.com/acidanthera/OpenCorePkg/releases/tag/0.6.7
 
 # Everything Works
-- Display with iGPU works properly after removing frambuffer patch and device-id
+- Display with iGPU works properly after removing frambuffer patch (if use config.plist for Big Sur, remove device-id 923E0000)
 - Sleep
 - Wake
 - Audio (select internal speakers)
